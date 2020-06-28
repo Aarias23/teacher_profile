@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    background: #eaf6f6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+hr {
+    border: 3px solid #2fd9fc;
+}
+
+.image {
+    border: 3px solid #2fd9fc;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.fas {
+
+    color: #6c757d;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.fas:hover {
+    color: #2fd9fc;
+}
+
+.text {
+    color: #6c757d;
+    font-size: 18px;
+}
+
+
+.text-muted {
+    margin-left: 1px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.jumbotron {
+    padding: 5px;
+    background: #eaf6f6;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.lead {
+    text-align: center;
+}
+
+.modify {
+    height: 225px;
+}
+
+.card-text {
+    color: #6c757d;
+    text-align: justify;
+}
+
+/* Footer */
+
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.white-section {
+    background-color: #2fd9fc;
+}
+
+.social-icons {
+    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 18px;
+    margin: 15px;
+    box-shadow: 1px 1px 1px 1px #6c757d;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.social-icons:hover {
+    transform: scale(1.4);
+}
+
+.fa-twitter {
+    color: #0097e6;
+}
+
+.fa-facebook-f {
+    color: #4267b2
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-youtube {
+    color: #e84118;
+}
+
+.copyright {
+    color: #6c757d;
+    padding: 20px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .text {
+        font-size: 10px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .social-icons {
+        width: 30px;
+        height: 30px;
+        padding-top: 8px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .social-icons {
+        width: 30px;
+        height: 30px;
+        padding-top: 8px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .lead {
+        text-align: justify;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .card-title {
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: initial;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .adjust.text-muted {
+        font-size: 20px;
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .lead {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .copyright {
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .image {
+        height: 190px;
+        width: 190px;
+    }
+}
